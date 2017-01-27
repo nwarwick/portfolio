@@ -1,0 +1,22 @@
+.title-section {
+	color: #3F4043;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+
+.title-section h1 {
+	font-size: 4em;
+}
+
+.title-section hr {
+	width: 250px;
+	height: .01em;
+	background-color: #292A2A;
+}
+
+.footer {
+	left: 50%;
+	position: fixed;
+	bottom: 15px;
+	font-family: 'Raleway', sans-serif;
+}

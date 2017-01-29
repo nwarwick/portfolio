@@ -4,12 +4,20 @@ body {
 
 .container {
     margin: 0 auto;
-    width: 40em;
+    width: 32em;
+    height: 32em;
     max-width: 100%;
+    margin-bottom: 5em;
+}
+
+.container hr {
+    border-color: #17B76D;
+    border-style: solid;
+    border-width: 1px 0 0 0;
 }
 
 .about-section {
-	margin-top: 5em;
+    margin-top: 2em;
     padding: 1em;
     height: 20em;
     /*border: 1px solid #17B76D;
@@ -18,20 +26,21 @@ body {
 }
 
 .about-section p {
-    margin-top: 5em;
-	text-align: left;
+    text-align: left;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     color: #4B4E50;
 }
 
 .fa {
-	color: #17B76D;
-	font-size: 1.5em;
+    color: #17B76D;
+    font-size: 1.5em;
 }
 
 #prof-pic {
-    float: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 20%;
     padding: 1em;
 }

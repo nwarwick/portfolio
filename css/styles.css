@@ -24,13 +24,6 @@ body {
   background-color: #292A2A;
 }*/
 
-.footer {
-    left: 50%;
-    position: fixed;
-    bottom: 15px;
-    font-family: 'Raleway', sans-serif;
-}
-
 hr.style18 {
     height: 30px;
     border-style: solid;

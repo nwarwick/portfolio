@@ -17,18 +17,16 @@ body {
 }
 
 .about-section {
-    margin-top: 2em;
+    margin-top: 60px;
     padding: 1em;
     height: 20em;
-    /*border: 1px solid #17B76D;
-    border-radius: 20px;
-    background: #fff;*/
 }
 
 .about-section p {
     text-align: left;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    font-size: 15px;
     color: #4B4E50;
 }
 

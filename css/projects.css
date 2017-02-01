@@ -1,3 +1,99 @@
 body {
-	background-color: #F5F5F5;
+    background-color: #F5F5F5;
+}
+
+div {
+    display: block;
+}
+
+.project-section {
+    margin: 0 auto;
+    width: 100em;
+    max-width: 100%;
+}
+
+.p-row {
+    margin-top: 150px;
+    text-align: center;
+    width: 100%;
+}
+
+.proj-img {
+    border-radius: 30px;
+    width: 150px;
+    height: 150px;
+}
+
+.p-block {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 4em;
+    margin-right: 4em;
+    width: 15em;
+}
+
+.p-block p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #4B4E50;
+    text-align: center;
+}
+
+.p-block h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #4B4E50;
+    text-align: center;
+}
+
+.button {
+    padding: 8px;
+    border: 1px solid #17B76D;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    transition: 0.1s;
+}
+
+.button:hover {
+    background-color: #17B76D;
+    color: #FCFCFC;
+    transform-style: ease-in;
+}
+
+@media (max-width: 1502px) {
+    .proj-img {
+        position: relative;
+        border-radius: 20%;
+        width: 100px;
+        height: 100px;
+    }
+    .p-block h1 {
+        font-size: 20px;
+    }
+    .p-block p {
+        font-size: 12px;
+    }
+    .p-block {
+        vertical-align: top;
+        margin-left: 4em;
+        margin-right: 4em;
+        width: 150px
+    }
+}
+
+@media (max-width: 1139px) {
+    .p-block {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 857px) {
+    .p-block {
+        margin-bottom: 50px;
+    }
 }

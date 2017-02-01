@@ -25,9 +25,9 @@ body {
 .about-section p {
     text-align: left;
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 15px;
-    color: #4B4E50;
+    color: #666666;
 }
 
 .fa {

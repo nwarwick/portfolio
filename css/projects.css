@@ -35,9 +35,9 @@ div {
 
 .p-block p {
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 14px;
-    color: #4B4E50;
+    color: #666666;
     text-align: center;
 }
 
@@ -45,7 +45,7 @@ div {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 22px;
-    color: #4B4E50;
+    color: #3F4043;
     text-align: center;
 }
 
@@ -54,7 +54,7 @@ div {
     border: 1px solid #17B76D;
     border-radius: 5px;
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 12px;
     transition: 0.1s;
 }

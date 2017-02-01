@@ -29,7 +29,8 @@ body {
 
 .info-container p {
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
+    color: #666666;
 }
 
 .info-container hr {
@@ -39,19 +40,12 @@ body {
     border-radius: 10px;
 }
 
-.info-container a {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-}
-
 .pic-container {
     position: absolute;
     margin-left: 5em;
     margin-top: 10em;
     display: inline-block;
     width: 25em;
-    overflow-y: scroll;
-    overflow-x: hidden;
     padding: 1em;
     border: 1px solid #17B76D;
     border-radius: 10px;
@@ -68,7 +62,7 @@ body {
     border: 1px solid #17B76D;
     border-radius: 5px;
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 12px;
     text-align: center;
     transition: 0.1s;

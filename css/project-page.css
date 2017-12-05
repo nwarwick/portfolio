@@ -7,6 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 90vh;
+    margin-bottom: 40px;
 }
 
 .info-container {
@@ -70,6 +71,7 @@ body {
     background-color: #17B76D;
     color: #FCFCFC;
     transform-style: ease-in;
+    text-decoration: none;
 }
 
 
@@ -96,5 +98,11 @@ body {
 @media (max-width: 850px) {
     .pic-container {
         display: none;
+    }
+}
+
+@media (max-height: 750px) {
+    .main-container {
+        height: 100%;
     }
 }

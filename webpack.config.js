@@ -134,6 +134,15 @@ module.exports = {
             filename: 'panzer.html',
             template: './src/projects/panzer.html', // Load a custom template (ejs by default see the FAQ for details)
         }),
+        new HtmlWebpackPlugin({
+            title: 'Project Demo',
+            minify: {
+                collapseWhitespace: true
+            },
+            hash: true,
+            filename: 'custom-website.html',
+            template: './src/projects/custom-website.html', // Load a custom template (ejs by default see the FAQ for details)
+        }),
         new ExtractTextPlugin({
             filename: 'app.css',
             disable: false,

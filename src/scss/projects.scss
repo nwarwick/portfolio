@@ -11,6 +11,7 @@
             display: flex;
             justify-content: center;
             flex-flow: column;
+            margin-top: 10vh;
         }
     
         .p-row {
@@ -92,7 +93,7 @@
                 margin-bottom: 10%;
             }
             .project-section {
-                flex-direction: row;
+                // flex-direction: row;
             }
             .p-row {
                 flex-direction: column;

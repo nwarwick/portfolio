@@ -17,16 +17,17 @@
         /*background: #fff;*/
     }
     
-    .contact-card p {
-        text-align: left;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-        color: #666666;
-    }
-    
-    .fa {
-        color: $primary-color;
-    }
+    .contact-card {
+        p {
+            text-align: left;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            color: #666666;
+            .fa {
+                color: $primary-color;
+            }
+        }
+    } 
 }
 
 

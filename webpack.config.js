@@ -74,6 +74,15 @@ module.exports = {
             template: './src/about.html', // Load a custom template (ejs by default see the FAQ for details)
         }),
         new HtmlWebpackPlugin({
+            title: 'Resume',
+            // minify: {
+            //     collapseWhitespace: true
+            // },
+            hash: true,
+            filename: 'resume.html',
+            template: './src/resume.html', // Load a custom template (ejs by default see the FAQ for details)
+        }),
+        new HtmlWebpackPlugin({
             title: 'Project Demo',
             // minify: {
             //     collapseWhitespace: true

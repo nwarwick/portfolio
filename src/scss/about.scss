@@ -12,7 +12,7 @@
     }
     
     .container hr {
-        border-color: #17B76D;
+        border-color: $primary-color;
         border-style: solid;
         border-width: 1px 0 0 0;
     }
@@ -32,7 +32,7 @@
     }
     
     .fa {
-        color: #17B76D;
+        color: $primary-color;
         font-size: 1.5em;
     }
     

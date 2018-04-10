@@ -26,7 +26,7 @@
     .info-container h2 {
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
-        color: #17B76D;
+        color: $primary-color;
     }
     
     .info-container p {
@@ -47,32 +47,12 @@
         margin-top: 10em;
         width: 25em;
         padding: 1em;
-        border: 1px solid #17B76D;
+        border: 1px solid $primary-color;
         border-radius: 10px;
     }
     
     .pic-container img {
         border-radius: 10px;
-    }
-    
-    .button {
-        margin-top: 2em;
-        display: block;
-        padding: 8px;
-        border: 1px solid #17B76D;
-        border-radius: 5px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-        font-size: 12px;
-        text-align: center;
-        transition: 0.1s;
-    }
-    
-    .button:hover {
-        background-color: #17B76D;
-        color: #FCFCFC;
-        transform-style: ease-in;
-        text-decoration: none;
     }
 }
 

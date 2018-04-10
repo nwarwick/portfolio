@@ -25,7 +25,7 @@ hr.style18 {
     margin-bottom: -15px;
     height: 30px;
     border-style: solid;
-    border-color: #17B76D;
+    border-color: $primary-color;
     border-width: 1px 0 0 0;
     width: 280px;
 }
@@ -36,7 +36,7 @@ hr.style18:before {
     height: 30px;
     margin-top: -31px;
     border-style: solid;
-    border-color: #17B76D;
+    border-color: $primary-color;
     border-width: 0 0 1px 0;
     border-radius: 10px;
 }
@@ -63,8 +63,8 @@ a:visited {
 
 a:hover {
     text-decoration: underline;
-    text-decoration-color: #17B76D;
-    color: #17B76D;
+    text-decoration-color: $primary-color;
+    color: $primary-color;
 }
 
 @media (max-width: 1000px) {

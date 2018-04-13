@@ -11,33 +11,31 @@ module.exports = {
     },
     module: {
         rules: [{
-            test: /\.scss$/,
-            use: ExtractTextPlugin.extract({
-                fallbackLoader: 'style-loader',
-                loader: ['css-loader', 'sass-loader'],
-                publicPath: './'
-            })
+                test: /\.scss$/,
+                use: ExtractTextPlugin.extract({
+                    fallbackLoader: 'style-loader',
+                    loader: ['css-loader', 'sass-loader'],
+                    publicPath: './'
+                })
 
-        },
-        {
-            test: /\.(gif|png|jpe?g|svg)$/i,
-            use: ['file-loader']
-        },
-        {
-            test: /\.(pdf|ico)$/i,
-            use: [
-                {
+            },
+            {
+                test: /\.(gif|png|jpe?g|svg)$/i,
+                use: ['file-loader']
+            },
+            {
+                test: /\.(pdf|ico)$/i,
+                use: [{
                     loader: 'file-loader',
                     options: {
                         name: '[name].[ext]'
                     }
-                }
-            ],
-        },
-        {
-            test: /\.html$/,
-            use: ['html-loader']
-        }
+                }],
+            },
+            {
+                test: /\.html$/,
+                use: ['html-loader']
+            }
         ],
     },
     devServer: {
@@ -49,62 +47,62 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             title: 'Project Demo',
-            // minify: {
-            //     collapseWhitespace: true
-            // },
+            minify: {
+                collapseWhitespace: true
+            },
             hash: true,
             template: './src/index.html', // Load a custom template (ejs by default see the FAQ for details)
         }),
         new HtmlWebpackPlugin({
             title: 'Project Demo',
-            // minify: {
-            //     collapseWhitespace: true
-            // },
+            minify: {
+                collapseWhitespace: true
+            },
             hash: true,
             filename: 'contact.html',
             template: './src/contact.html', // Load a custom template (ejs by default see the FAQ for details)
         }),
         new HtmlWebpackPlugin({
             title: 'Project Demo',
-            // minify: {
-            //     collapseWhitespace: true
-            // },
+            minify: {
+                collapseWhitespace: true
+            },
             hash: true,
             filename: 'about.html',
             template: './src/about.html', // Load a custom template (ejs by default see the FAQ for details)
         }),
         new HtmlWebpackPlugin({
             title: 'Resume',
-            // minify: {
-            //     collapseWhitespace: true
-            // },
+            minify: {
+                collapseWhitespace: true
+            },
             hash: true,
             filename: 'resume.html',
             template: './src/resume.html', // Load a custom template (ejs by default see the FAQ for details)
         }),
         new HtmlWebpackPlugin({
             title: 'Project Demo',
-            // minify: {
-            //     collapseWhitespace: true
-            // },
+            minify: {
+                collapseWhitespace: true
+            },
             hash: true,
             filename: 'projects.html',
             template: './src/projects.html', // Load a custom template (ejs by default see the FAQ for details)
         }),
         new HtmlWebpackPlugin({
             title: 'Project Demo',
-            // minify: {
-            //     collapseWhitespace: true
-            // },
+            minify: {
+                collapseWhitespace: true
+            },
             hash: true,
             filename: 'dreamr.html',
             template: './src/projects/dreamr.html', // Load a custom template (ejs by default see the FAQ for details)
         }),
         new HtmlWebpackPlugin({
             title: 'Project Demo',
-            // minify: {
-            //     collapseWhitespace: true
-            // },
+            minify: {
+                collapseWhitespace: true
+            },
             hash: true,
             filename: 'earthquake-visualizer.html',
             template: './src/projects/earthquake-visualizer.html', // Load a custom template (ejs by default see the FAQ for details)
@@ -118,27 +116,27 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             title: 'Project Demo',
-            // minify: {
-            //     collapseWhitespace: true
-            // },
+            minify: {
+                collapseWhitespace: true
+            },
             hash: true,
             filename: 'kozy.html',
             template: './src/projects/kozy.html', // Load a custom template (ejs by default see the FAQ for details)
         }),
         new HtmlWebpackPlugin({
             title: 'Project Demo',
-            // minify: {
-            //     collapseWhitespace: true
-            // },
+            minify: {
+                collapseWhitespace: true
+            },
             hash: true,
             filename: 'pacethemusic.html',
             template: './src/projects/pacethemusic.html', // Load a custom template (ejs by default see the FAQ for details)
         }),
         new HtmlWebpackPlugin({
             title: 'Project Demo',
-            // minify: {
-            //     collapseWhitespace: true
-            // },
+            minify: {
+                collapseWhitespace: true
+            },
             hash: true,
             filename: 'panzer.html',
             template: './src/projects/panzer.html', // Load a custom template (ejs by default see the FAQ for details)
@@ -151,6 +149,15 @@ module.exports = {
             hash: true,
             filename: 'custom-website.html',
             template: './src/projects/custom-website.html', // Load a custom template (ejs by default see the FAQ for details)
+        }),
+        new HtmlWebpackPlugin({
+            title: 'Project Demo',
+            minify: {
+                collapseWhitespace: true
+            },
+            hash: true,
+            filename: 'calcohol.html',
+            template: './src/projects/calcohol.html', // Load a custom template (ejs by default see the FAQ for details)
         }),
         new ExtractTextPlugin({
             filename: 'app.css',

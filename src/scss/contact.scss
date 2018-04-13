@@ -2,32 +2,31 @@
     body {
         background-color: #F5F5F5;
     }
-    
     .container {
+        height: 60vh;
         margin: 0 auto;
         width: 17em;
         max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
-    
     .contact-card {
-        margin-top: 10em;
+        // margin-top: 10em;
         padding: 1em;
         border: 1px solid $primary-color;
         border-radius: 20px;
         /*background: #fff;*/
     }
-    
     .contact-card {
         p {
             text-align: left;
             font-family: 'Roboto', sans-serif;
             font-weight: 400;
             color: #666666;
-            .fa {
+            .contact-icon {
                 color: $primary-color;
             }
         }
-    } 
+    }
 }
-
-

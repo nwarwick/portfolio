@@ -38,16 +38,18 @@ hr.style18:before {
     border-style: solid;
     border-color: $primary-color;
     border-width: 0 0 1px 0;
-    border-radius: 10px;
 }
 
 .main-section {
-    margin-top: 17%;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 15px;
     color: #666666;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 a:link {
@@ -65,16 +67,4 @@ a:hover {
     text-decoration: underline;
     text-decoration-color: $primary-color;
     color: $primary-color;
-}
-
-@media (max-width: 1000px) {
-    .main-section {
-        margin-top: 25%;
-    }
-}
-
-@media (max-width: 740px) {
-    .main-section {
-        margin-top: 35%;
-    }
 }

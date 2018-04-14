@@ -159,6 +159,15 @@ module.exports = {
             filename: 'calcohol.html',
             template: './src/projects/calcohol.html', // Load a custom template (ejs by default see the FAQ for details)
         }),
+        new HtmlWebpackPlugin({
+            title: 'Project Demo',
+            minify: {
+                collapseWhitespace: true
+            },
+            hash: true,
+            filename: 'chomp.html',
+            template: './src/projects/chomp.html', // Load a custom template (ejs by default see the FAQ for details)
+        }),
         new ExtractTextPlugin({
             filename: 'app.css',
             disable: false,

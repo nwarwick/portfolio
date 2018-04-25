@@ -1,5 +1,5 @@
 import './scss/app.scss';
-import './resume.pdf';
+import './nick-warwick-resume.pdf';
 import './img/favicon.ico';
 
 import fontawesome from '@fortawesome/fontawesome'

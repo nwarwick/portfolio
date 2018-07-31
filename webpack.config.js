@@ -147,6 +147,15 @@ module.exports = {
                 collapseWhitespace: true
             },
             hash: true,
+            filename: 'schedulex.html',
+            template: './src/projects/schedulex.html', // Load a custom template (ejs by default see the FAQ for details)
+        }),
+        new HtmlWebpackPlugin({
+            title: 'Project Demo',
+            minify: {
+                collapseWhitespace: true
+            },
+            hash: true,
             filename: 'custom-website.html',
             template: './src/projects/custom-website.html', // Load a custom template (ejs by default see the FAQ for details)
         }),

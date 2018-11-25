@@ -1,8 +1,11 @@
-@import "variables";
-@import "global";
-@import "about";
-@import "contact";
-@import "resume";
-@import "index";
-@import "projects";
-@import "project-page";
+// Settings
+@import "settings/variables";
+@import "settings/buttons";
+
+// Views
+@import "views/about";
+@import "views/contact";
+@import "views/resume";
+@import "views/index";
+@import "views/projects";
+@import "views/project-page";

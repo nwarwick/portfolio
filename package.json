@@ -1,39 +1,29 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "Portfolio",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server",
-    "prod": "webpack -p"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nwarwick/portfolio.git"
   },
-  "author": "Nick Warwick",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nwarwick/portfolio.git/issues"
+    "url": "https://github.com/nwarwick/portfolio/issues"
   },
-  "homepage": "https://github.com/nwarwick/portfolio.git#readme",
-  "devDependencies": {
-    "css-loader": "^0.26.1",
-    "extract-text-webpack-plugin": "^2.0.0-rc.0",
-    "file-loader": "^1.1.6",
-    "firebase": "^4.9.1",
-    "html-loader": "^0.5.1",
-    "html-webpack-plugin": "^2.26.0",
-    "image-webpack-loader": "^3.4.2",
-    "node-sass": "^4.4.0",
-    "postcss-loader": "^2.0.9",
-    "sass-loader": "^4.1.1",
-    "style-loader": "^0.13.1",
-    "webpack": "^2.2.0",
-    "webpack-dev-server": "^2.2.0"
-  },
+  "homepage": "https://github.com/nwarwick/portfolio#readme",
   "dependencies": {
-    "@fortawesome/fontawesome": "^1.1.5",
-    "@fortawesome/fontawesome-free-solid": "^5.0.10"
+    "@zeit/next-sass": "^1.0.1",
+    "next": "^7.0.2",
+    "node-sass": "^4.10.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
   }
 }

@@ -1,0 +1,18 @@
+// Variables
+@import 'variables/colours';
+
+// Settings
+@import 'settings/layout';
+@import 'settings/global';
+@import 'settings/fonts';
+
+// Elements 
+@import 'elements/links';
+
+// Components
+@import 'components/nav';
+@import 'components/footer';
+
+// Pages
+@import 'pages/index';
+@import 'pages/about';

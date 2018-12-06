@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "export": "next build && next export",
-    "serve": "serve -p 8080 out/"
+    "serve": "serve -p 8080 out/",
+    "deploy": "now out/"
   },
   "repository": {
     "type": "git",

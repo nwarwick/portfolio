@@ -1,0 +1,15 @@
+.contact-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .wrapper {
+    font-size: 1.3rem;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-top: 250px;
+    border: 1px solid $primary;
+    border-radius: 5px;
+  }
+}

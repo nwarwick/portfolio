@@ -1,0 +1,42 @@
+.project-preview {
+  padding: 40px;
+  width: 200px;
+  text-align: center;
+  position: relative;
+  user-select: none;
+  transition: 0.1s ease-in-out;
+
+  &:hover {
+    cursor: pointer;
+
+    .test {
+      opacity: 1;
+    }
+  }
+
+  &:active {
+    transform: scale(0.9);
+  }
+
+  .project-preview-img {
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+  }
+
+  .test {
+    @include flex-center;
+    transition: 0.2s ease-in-out;
+    opacity: 0;
+    border-radius: 15px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: $primary-opaque;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+  }
+}

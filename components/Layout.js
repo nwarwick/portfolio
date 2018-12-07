@@ -1,4 +1,4 @@
-import '../assets/scss/application.scss'
+import '../static/scss/application.scss'
 import Nav from './Nav'
 import Footer from './Footer'
 

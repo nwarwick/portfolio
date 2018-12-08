@@ -14,6 +14,11 @@ const Layout = props => (
         key='viewport'
       />
       <meta name='description' content={props.metaContent} />
+      <link
+        rel='shortcut icon'
+        type='image/x-icon'
+        href='/static/favicon.ico'
+      />
     </Head>
     <Nav navTitle={props.navTitle} />
     <main className='main-content'>{props.children}</main>

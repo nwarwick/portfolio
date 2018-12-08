@@ -11,20 +11,17 @@ const projectList = [
   {
     title: 'Earthquake Data Visualizer',
     img: '/static/img/earthquake-visualizer/earthquake-visualizer.png',
-    description:
-      'An earthquake data visualization application.'
+    description: 'An earthquake data visualization application.'
   },
   {
     title: 'ScheduleX',
     img: '/static/img/schedulex/schedulex.png',
-    description:
-      'Displays a list of upcoming SpaceX launches.'
+    description: 'Displays a list of upcoming SpaceX launches.'
   },
   {
     title: 'Kozy',
     img: '/static/img/kozy/kozy-logo.png',
-    description:
-      'An ambient sound web app.'
+    description: 'An ambient sound web app.'
   },
   {
     title: 'Custom Website',
@@ -34,7 +31,8 @@ const projectList = [
   {
     title: 'PaceTheMusic',
     img: '/static/img/ptm/ptm.png',
-    description: 'A program that generates music playlists based on user specified tempos.'
+    description:
+      'A program that generates music playlists based on user specified tempos.'
   },
   {
     title: 'DREAMR',
@@ -59,10 +57,14 @@ const projectList = [
 ]
 
 const Projects = () => (
-  <Layout pageTitle={'What have I done?'}>
-    <div className="projects-page">
-      <div className="container">
-        <div className="project-list">
+  <Layout
+    pageTitle='Nick Warwick | Projects'
+    metaContent='A list of a few projects I have completed.'
+    navTitle='What have I done?'
+  >
+    <div className='projects-page'>
+      <div className='container'>
+        <div className='project-list'>
           {projectList.map((project, id) => {
             return (
               <ProjectPreview

@@ -1,6 +1,5 @@
 .contact-page {
-  height: 100%;
-  @include flex-center;
+  @include main-page-layout;
 
   .wrapper {
     font-size: 1.3rem;

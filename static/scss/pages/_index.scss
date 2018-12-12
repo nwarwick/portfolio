@@ -1,6 +1,5 @@
 .index-page {
-  height: 100%;
-  @include flex-center;
+  @include main-page-layout;
 
   .tagline {
     font-size: 1.7857rem;

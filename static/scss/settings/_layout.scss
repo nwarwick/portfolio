@@ -21,8 +21,20 @@
   padding: 0 15px;
 }
 
-@mixin flex-center {
+.grid-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@mixin flex-center($flex-direction: row) {
   display: flex;
+  flex-direction: $flex-direction;
   justify-content: center;
   align-items: center;
+}
+
+@mixin main-page-layout($flex-direction: row) {
+  @include flex-center($flex-direction);
+  height: 100%;
 }

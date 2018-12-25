@@ -2,7 +2,6 @@ import Layout from '../components/Layout'
 import ProjectPreview from '../components/ProjectPreview'
 import projects from '../api/data'
 
-
 const Projects = () => (
   <Layout
     pageTitle='Nick Warwick | Projects'

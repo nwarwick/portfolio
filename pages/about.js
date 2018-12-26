@@ -2,7 +2,7 @@ import Layout from '../components/Layout'
 
 const About = () => (
   <Layout
-    pageTitle='Nick Warwick | Projects'
+    pageTitle='Nick Warwick | About Me'
     metaContent='A list of a few projects I have completed.'
     navTitle='About Me'
   >

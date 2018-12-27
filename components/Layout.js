@@ -20,8 +20,8 @@ const Layout = props => (
         href='/static/favicon.ico'
       />
     </Head>
-    <Nav navTitle={props.navTitle} />
-    <main className='main-content'>{props.children}</main>
+    {props.navTitle && <Nav navTitle={props.navTitle} />}
+    <main>{props.children}</main>
     <Footer />
   </React.Fragment>
 )

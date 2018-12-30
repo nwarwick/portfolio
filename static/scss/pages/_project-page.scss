@@ -1,0 +1,22 @@
+.project-page {
+  @include main-page-layout(column);
+
+  h2 {
+    color: $primary;
+  }
+
+  .project-page-sorry {
+    font-size: 3rem;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    align-items: center;
+  }
+
+  .project-image img {
+    border-radius: 5px;
+  }
+} 

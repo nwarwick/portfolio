@@ -12,12 +12,7 @@ const Projects = () => (
       <div className='container'>
         <div className='project-list'>
           {projects.map((project, id) => {
-            return (
-              <ProjectPreview
-                project={project}
-                key={id}
-              />
-            )
+            return <ProjectPreview project={project} key={id} />
           })}
         </div>
       </div>

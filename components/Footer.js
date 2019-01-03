@@ -1,5 +1,5 @@
 const Footer = props => (
-  <footer className="footer">
+  <footer className='footer'>
     <span>Who needs a footer for a portfolio?</span>
   </footer>
 )

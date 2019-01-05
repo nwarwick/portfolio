@@ -7,7 +7,6 @@ module.exports = withSass({
       '/about': { page: '/about' },
       '/projects': { page: '/projects' },
       '/contact': { page: '/contact' }
-
     }
   }
 })

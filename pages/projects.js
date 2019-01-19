@@ -1,6 +1,6 @@
 import Layout from '../components/Layout'
 import ProjectPreview from '../components/ProjectPreview'
-import projects from '../api/data'
+import projects from '../static/js/data'
 
 const Projects = () => (
   <Layout

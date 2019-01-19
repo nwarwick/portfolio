@@ -1,5 +1,5 @@
 import Layout from '../components/Layout'
-import projects from '../api/data'
+import projects from '../static/js/data'
 
 export default class ProjectPage extends React.PureComponent {
   static async getInitialProps ({ query, res }) {

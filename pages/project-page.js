@@ -3,7 +3,7 @@ import projects from '../api/data'
 
 export default class ProjectPage extends React.PureComponent {
   static async getInitialProps ({ query, res }) {
-    const project = projects.find(project => project.id === query.slug)
+    const project = projects.find(project => project.id === query.id)
 
     if (!project && res) {
       res.statusCode = 404

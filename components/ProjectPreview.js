@@ -1,6 +1,4 @@
-// import Link from 'next/link'
-// import Router from '../routes'
-import { Link, Router } from '../routes'
+import Link from 'next/link'
 
 const ProjectPreview = props => {
   const { previewImg, title, previewDescription, id } = props.project
@@ -10,7 +8,7 @@ const ProjectPreview = props => {
       <img className='project-preview-img' src={previewImg} alt='Project' />
       <h2>{title}</h2>
       <p>{previewDescription}</p>
-      <Link route='project-page' params={{ slug: id }}>
+      <Link prefetch href={'project-page?id='+id}>
         <a className='test'>Learn More</a>
       </Link>
     </div>

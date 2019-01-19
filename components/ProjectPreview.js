@@ -8,7 +8,7 @@ const ProjectPreview = props => {
       <img className='project-preview-img' src={previewImg} alt='Project' />
       <h2>{title}</h2>
       <p>{previewDescription}</p>
-      <Link prefetch href={'project-page?id='+id}>
+      <Link prefetch href={'/project-page?id='+id}>
         <a className='test'>Learn More</a>
       </Link>
     </div>

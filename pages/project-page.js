@@ -30,7 +30,7 @@ export default class ProjectPage extends React.PureComponent {
               <div className='project'>
                 <h1>{title}</h1>
                 <h2>What is it?</h2>
-                <p>{fullDescription}</p>
+                <div dangerouslySetInnerHTML={{__html: fullDescription}} />
                 <h2>What was used to make it?</h2>
                 <ul>
                   {technology.map((item, id) => {

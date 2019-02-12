@@ -5,7 +5,7 @@ import projects from '../static/js/data'
 const Projects = () => (
   <Layout
     pageTitle='Nick Warwick | Projects'
-    metaContent='A list of a few projects I have completed.'
+    metaContent='I have completed many projects ranging from games and virtual reality data analysis tools to full-stack web applications.'
     navTitle='What have I done?'
   >
     <div className='projects-page'>

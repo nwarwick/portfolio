@@ -3,7 +3,10 @@ import Layout from '../components/Layout'
 const About = () => (
   <Layout
     pageTitle='Nick Warwick | About Me'
-    metaContent='A list of a few projects I have completed.'
+    metaContent='I am a Computer Science graduate from the University of Victoria. I
+    have a passion for software/web development and design. I am always
+    excited to learn new tools and techniques and to work with awesome
+    people.'
     navTitle='About Me'
   >
     <div className='about-page'>

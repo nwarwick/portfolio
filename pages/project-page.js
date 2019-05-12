@@ -47,7 +47,7 @@ export default class ProjectPage extends React.PureComponent {
                   </ul>
                   <h2>Where is it?</h2>
                   <p>{project.url}</p>
-                  <a href='/projects'>Back</a>
+                  <a className='btn' href='/projects'>Back</a>
                 </div>
                 <div className='project-image'>
                   <img src={project.fullImg} alt='Project screen shot' />

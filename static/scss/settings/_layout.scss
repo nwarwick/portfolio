@@ -38,3 +38,24 @@
   @include flex-center($flex-direction);
   height: 100%;
 }
+
+@mixin container-spacing {
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@mixin container($size: lg) {
+  @include container-spacing;
+  
+  @if $size == xl {
+    max-width: $screen-lg;
+  } @else if($size == lg) {
+    max-width: $screen-md;
+  } @else if($size == md) {
+    max-width: $screen-md;
+  } @else if($size == sm) {
+    max-width: $screen-sm;
+  } @else if($size == sm) {
+    max-width: $screen-xs;
+  }
+}

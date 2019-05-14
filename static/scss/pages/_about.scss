@@ -1,17 +1,10 @@
 .about-page {
-  .container-sm {
-    display: flex;
-    justify-content: center;
-  }
-  .wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+  @include container(sm);
+  @include flex-center(column);
+
   .about-me-image {
     height: 350px;
     border-radius: 5px;
-    display: flex;
     margin-bottom: 15px;
   }
 }

@@ -1,4 +1,6 @@
 .projects-page {
+  @include container;
+  
   .project-list {
     display: flex;
     flex-wrap: wrap;

@@ -9,12 +9,10 @@ const Projects = () => (
     navTitle='What have I done?'
   >
     <div className='projects-page'>
-      <div className='container'>
-        <div className='project-list'>
-          {projects.map((project, id) => {
-            return <ProjectPreview project={project} key={id} />
-          })}
-        </div>
+      <div className='project-list'>
+        {projects.map((project, id) => {
+          return <ProjectPreview project={project} key={id} />
+        })}
       </div>
     </div>
   </Layout>

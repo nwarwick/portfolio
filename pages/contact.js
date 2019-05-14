@@ -3,7 +3,7 @@ import Layout from '../components/Layout'
 const Contact = () => (
   <Layout
     pageTitle='Nick Warwick | Contact Me'
-    metaContent='Give me a call or shoot me an email!'
+    metaContent='I am always open to talk. Give me a call or send me an email!'
     navTitle='Contact Me'
   >
     <div className='contact-page'>

@@ -42,6 +42,12 @@
   }
 }
 
+@mixin hide($screen-size) {
+  @media (max-width: $screen-size) {
+    display: none;
+  }
+}
+
 .grid-container {
   @include container;
   display: grid;

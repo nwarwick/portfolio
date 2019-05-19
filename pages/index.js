@@ -7,7 +7,11 @@ const Index = () => (
     navTitle='Nick Warwick'
   >
     <div className='index-page'>
-      <span className='tagline'>Designer. Developer. Idea-er.</span>
+      <div className='tagline'>
+        <span>Designer.&nbsp;</span>
+        <span>Developer.&nbsp;</span>
+        <span>Idea-er.</span>
+      </div>
     </div>
   </Layout>
 )

@@ -10,7 +10,7 @@
   }
 
   .grid-container {
-    display: grid;
+    @include display(grid);
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: 'info image';
     grid-gap: 50px;
@@ -26,7 +26,7 @@
   }
 
   .project-image {
-    @include hide($screen-sm);
+    @include display(none, $screen-sm);
     grid-area: image;
   }
 
@@ -35,7 +35,7 @@
   }
 
   .btn {
-    display: block;
+    @include display(block);
     margin-top: 30px;
   }
 }

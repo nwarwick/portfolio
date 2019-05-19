@@ -2,7 +2,7 @@
   @include main-page-layout;
 
   .wrapper {
-    display: inline-flex;
+    @include display(inline-flex);
     flex-direction: column;
     padding: 15px;
     border: 1px solid $primary;

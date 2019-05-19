@@ -42,13 +42,17 @@
   }
 }
 
-@mixin hide($screen-size) {
-  @media (max-width: $screen-size) {
-    display: none;
+@mixin display($display-setting, $screen-size: null) {
+  @if $screen-size {
+    @media (max-width: $screen-size) {
+      display: $display-setting;
+    }
+  } @else {
+    display: $display-setting;
   }
 }
 
 .grid-container {
   @include container;
-  display: grid;
+  @include display(grid);
 }

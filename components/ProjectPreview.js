@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 const ProjectPreview = props => {
-  const { previewImg, title, previewDescription, id } = props.project
+  const { previewImg, title, previewDescription } = props.project
 
   return (
     <div className='project-preview'>

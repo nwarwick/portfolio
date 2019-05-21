@@ -22,7 +22,7 @@ export default class Project extends React.Component {
         <div className='project-page'>
           <div className='grid-container'>
             <div className='project'>
-              <h1>{title}</h1>
+              <h1 className='project-title'>{title}</h1>
               <h2>What is it?</h2>
               <div
                 dangerouslySetInnerHTML={{

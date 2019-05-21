@@ -6,10 +6,9 @@ module.exports = [
     previewDescription:
       'Calcohol is an application that lets users search for liquor and view a calculated alcohol per dollar (APD) score.',
     fullImg: '/static/img/calcohol/calcohol.png',
-    fullDescription:
-      `<p>Calcohol is an application that lets users search for liquor and view a scaled alcohol per dollar (APD) score, allowing them to be as economic as possible when it comes to drinking. Very helpful for college students!</p><p>The data was previously pulled from a government API, but I moved it into my own database and wrote my own API in order to make it more efficient and improve the search functionality.</p>`,
+    fullDescription: `<p>Calcohol is an application that lets users search for liquor and view a scaled alcohol per dollar (APD) score, allowing them to be as economic as possible when it comes to drinking. Very helpful for college students!</p><p>The data was previously pulled from a government API, but I moved it into my own database and wrote my own API in order to make it more efficient and improve the search functionality.</p>`,
     technology: ['Vue.js', 'Node.js', 'Express', 'MongoDB'],
-    url: 'https://github.com/nwarwick/calcohol'
+    url: 'https://calcohol.info/'
   },
   {
     id: '2',
@@ -36,9 +35,11 @@ module.exports = [
   {
     id: '4',
     title: 'Kozy',
-    previewImg: '/static/img/kozy/kozy-logo.png',
+    previewImg:
+      'https://res.cloudinary.com/dbiyjyi0a/image/upload/v1547913806/portfolio/kozy-logo.png',
     previewDescription: 'An ambient sound web app.',
-    fullImg: '/static/img/kozy/kozy.png',
+    fullImg:
+      'https://res.cloudinary.com/dbiyjyi0a/image/upload/v1547913807/portfolio/kozy.png',
     fullDescription:
       '<p>Kozy is a simple, lightweight, ambient sound web app written using vanilla JavaScript. I created it to practice my web development and design skills.</p>',
     technology: ['JavaScript', 'HTML', 'SCSS', 'Parcel', 'Firebase'],
@@ -47,10 +48,12 @@ module.exports = [
   {
     id: '5',
     title: 'Custom Website',
-    previewImg: '/static/img/custom-website/code.jpg',
+    previewImg:
+      'https://res.cloudinary.com/dbiyjyi0a/image/upload/v1547913798/portfolio/code.jpg',
     previewDescription:
       'This is a custom website I built from scratch for a client.',
-    fullImg: '/static/img/custom-website/custom-website.png',
+    fullImg:
+      'https://res.cloudinary.com/dbiyjyi0a/image/upload/v1547913807/portfolio/custom-website.png',
     fullDescription:
       '<p>This is an example of a custom website I built from scratch for a client. It is fully responsive and works on phones and tablets.</p>',
     technology: ['JavaScript', 'HTML', 'CSS', 'Firebase'],
@@ -78,7 +81,7 @@ module.exports = [
     fullDescription:
       '<p>DREAMR (Data and Risk Evaluation and Analysis in Mixed Reality) is a data and risk evaluation tool that takes advantage of the Mixed Reality environment provided by the HoloLens, in order to help with data visualization.</p>',
     technology: ['C#', 'Unity', 'HoloLens SDK'],
-    url: ''
+    url: 'https://www.youtube.com/watch?v=l92_MlJ-OFs'
   },
   {
     id: '8',

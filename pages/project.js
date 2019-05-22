@@ -9,16 +9,14 @@ export default class Project extends React.Component {
     const {
       title,
       fullDescription,
+      metaDescription,
       technology,
       url,
       fullImg
     } = this.props.url.query
 
     return (
-      <Layout
-        pageTitle={`Projects - ${title}`}
-        metaContent='My name is Nick Warwick. I am a fullstack web developer and designer living in Victoria British Columbia, Canada. I am available for freelance work. I can build and design websites and web applications as well as apply SEO standards.'
-      >
+      <Layout pageTitle={`Projects - ${title}`} metaContent={metaDescription}>
         <div className='project-page'>
           <div className='grid-container'>
             <div className='project'>

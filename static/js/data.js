@@ -8,7 +8,7 @@ module.exports = [
     fullImg: '/static/img/calcohol/calcohol.png',
     fullDescription: `<p>Calcohol is an application that lets users search for liquor and view a scaled alcohol per dollar (APD) score, allowing them to be as economic as possible when it comes to drinking. Very helpful for college students!</p><p>The data was previously pulled from a government API, but I moved it into my own database and wrote my own API in order to make it more efficient and improve the search functionality.</p>`,
     metaDescription:
-      'Calcohol is an application that lets users search for liquor and view a scaled alcohol per dollar (APD) score, allowing them to be as economic as possible when it comes to drinking. Very helpful for college students! The data was previously pulled from a government API, but I moved it into my own database and wrote my own API in order to make it more efficient and improve the search functionality.',
+      'Calcohol is an application that lets users search for liquor and view a scaled alcohol per dollar (APD) score, allowing them to be as economic as possible when it comes to drinking.',
     technology: ['Vue.js', 'Node.js', 'Express', 'MongoDB'],
     url: 'https://calcohol.info/'
   },
@@ -32,9 +32,9 @@ module.exports = [
     previewDescription: 'Displays a list of upcoming SpaceX launches.',
     fullImg: '/static/img/schedulex/schedulex.png',
     fullDescription:
-      'ScheduleX is an application that hooks into a SpaceX API in order to display a list of all the upcoming rocket launches, displaying info about them such as payload, date, rocket type, as well as any related social media links.',
+      'ScheduleX is an application that hooks into a SpaceX API in order to display a list of all the upcoming rocket launches, displaying info about them such as payload, date, location, rocket model, as well as any related social media links.',
     metaDescription:
-      'ScheduleX is an application that hooks into a SpaceX API in order to display a list of all the upcoming rocket launches, displaying info about them such as payload, date, rocket type, as well as any related social media links.',
+      'ScheduleX is an application that hooks into a SpaceX API in order to display a list of all the upcoming rocket launches, displaying info about them such as payload, date, location, rocket model, as well as any related social media links.',
     technology: ['JavaScript', 'HTML', 'CSS', 'Parcel'],
     url: 'https://github.com/nwarwick/schedule-x'
   },
@@ -79,7 +79,7 @@ module.exports = [
     fullDescription:
       '<p>PaceTheMusic is a desktop application created by Kaileen McCulloch, James Gray, and myself. It allows users to create playlists based on tempos. If you want your playlist to start off with slower music then ramp up to fast music, simply specify your tempos and the application will do the rest! I worked on the front end of the application and tied it together with the backend.</p>',
     metaDescription:
-      'PaceTheMusic is a desktop application created by Kaileen McCulloch, James Gray, and myself. It allows users to create playlists based on tempos. If you want your playlist to start off with slower music then ramp up to fast music, simply specify your tempos and the application will do the rest! I worked on the front end of the application and tied it together with the backend.',
+      'PaceTheMusic is a desktop application created by Kaileen McCulloch, James Gray, and myself. It allows users to create playlists based on tempos. If you want your playlist to start off with slower music then ramp up to fast music, simply specify your tempos and the application will do the rest!',
     technology: ['Python', 'SQLAlchemy', 'PyQt5'],
     url: 'https://github.com/james-gray/pace-the-music'
   },

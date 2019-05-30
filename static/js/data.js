@@ -104,9 +104,9 @@ module.exports = [
     previewDescription: 'A 2D survival game.',
     fullImg: '/static/img/chomp/chomp.png',
     fullDescription:
-      '<p>Chomp is a 2D survival game in which you play as a worm trying not to die from other worms that are trying to kill you for some reason. The world is filled with powerups and other items that can aid you in your quest to not die. The game was built by William Tsease and myself.</p>',
+      '<p>Chomp is a 2D survival game in which you play as a worm trying not to die from other worms that are trying to kill you for some reason. The world is filled with power-ups and other items that can aid you in your quest to not die. The game was built by William Tsease and myself.</p>',
     metaDescription:
-      'Chomp is a 2D survival game in which you play as a worm trying not to die from other worms that are trying to kill you for some reason. The world is filled with powerups and other items that can aid you in your quest to not die. The game was built by William Tsease and myself.',
+      'Chomp is a 2D survival game in which you play as a worm trying not to die from other worms that are trying to kill you for some reason. The world is filled with power-ups and other items that can aid you in your quest to not die. The game was built by William Tsease and myself.',
     technology: ['C#', 'Unity'],
     url: 'https://github.com/nwarwick/chomp'
   },

@@ -9,8 +9,8 @@ const Index = () => (
   >
     <div className='index-page'>
       <div className='tagline'>
-        <span>Designer.&nbsp;</span>
-        <span>Developer.&nbsp;</span>
+        <span>Designer.</span>
+        <span>Developer.</span>
         <span>Idea-er.</span>
       </div>
     </div>

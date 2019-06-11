@@ -22,7 +22,7 @@ const Layout = props => {
           type='image/x-icon'
           href='/static/favicon.ico'
         />
-        <link rel="canonical" href={canonicalUrl}
+        <link rel="canonical" href={canonicalUrl} />
         <script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=UA-87075310-2`}

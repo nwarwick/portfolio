@@ -16,7 +16,14 @@ export default class Project extends React.Component {
     } = this.props.url.query
 
     return (
-      <Layout pageTitle={`Projects - ${title}`} metaContent={metaDescription}>
+      <Layout
+        pageTitle={`Projects - ${title}`}
+        metaContent={metaDescription}
+        canonicalUrl={`https://nwarwick.info/about${title
+          .trim()
+          .toLowerCase()
+          .replace(/[\s]+/g, '-')}`}
+      >
         <div className='project-page'>
           <div className='grid-container'>
             <div className='project'>

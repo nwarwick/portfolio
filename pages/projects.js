@@ -7,6 +7,7 @@ const Projects = () => (
     pageTitle='Nick Warwick | Projects'
     metaContent='I have completed many projects ranging from games and virtual reality data analysis tools to full-stack web applications.'
     navTitle='What have I done?'
+    canonicalUrl='https://nwarwick.info/projects'
   >
     <div className='projects-page'>
       <div className='project-list'>

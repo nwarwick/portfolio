@@ -8,6 +8,7 @@ const About = () => (
     excited to learn new tools and techniques and to work with awesome
     people.'
     navTitle='About Me'
+    canonicalUrl='https://nwarwick.info/about'
   >
     <div className='about-page'>
       <img

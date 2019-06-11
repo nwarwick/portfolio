@@ -5,6 +5,7 @@ const Contact = () => (
     pageTitle='Nick Warwick | Contact Me'
     metaContent='I am always open to talk. Give me a call or send me an email!'
     navTitle='Contact Me'
+    canonicalUrl='https://nwarwick.info/contact'
   >
     <div className='contact-page'>
       <div className='wrapper'>

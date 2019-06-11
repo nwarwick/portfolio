@@ -10,7 +10,11 @@ const About = () => (
     navTitle='About Me'
   >
     <div className='about-page'>
-      <img className='about-me-image' src='/static/img/me.jpg' alt='Me' />
+      <img
+        className='about-me-image'
+        src='https://res.cloudinary.com/dbiyjyi0a/image/upload/v1547913804/portfolio/me.jpg'
+        alt='Me'
+      />
       <p>
         I am a Computer Science graduate from the University of Victoria. I have
         a passion for software/web development and design. I am always excited

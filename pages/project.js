@@ -19,7 +19,7 @@ export default class Project extends React.Component {
       <Layout
         pageTitle={`Projects - ${title}`}
         metaContent={metaDescription}
-        canonicalUrl={`https://nwarwick.info/${title
+        canonicalUrl={`https://nwarwick.info/projects/${title
           .trim()
           .toLowerCase()
           .replace(/[\s]+/g, '-')}`}

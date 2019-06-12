@@ -1,5 +1,6 @@
 @font-face {
   font-family: 'Avenir';
+  font-display: fallback;
   src: url('/static/fonts/AvenirLTStd-Medium.woff') format('woff');
   font-weight: normal;
   font-style: normal;
@@ -7,6 +8,7 @@
 
 @font-face {
   font-family: 'Avenir';
+  font-display: fallback;
   src: url('/static/fonts/AvenirLTStd-MediumOblique.woff') format('woff');
   font-weight: normal;
   font-style: italic;
@@ -14,6 +16,7 @@
 
 @font-face {
   font-family: 'Avenir';
+  font-display: fallback;
   src: url('/static/fonts/AvenirLTStd-Heavy.woff') format('woff');
   font-weight: bold;
   font-style: normal;
@@ -21,6 +24,7 @@
 
 @font-face {
   font-family: 'Avenir';
+  font-display: fallback;
   src: url('/static/fonts/AvenirLTStd-HeavyOblique.woff') format('woff');
   font-weight: bold;
   font-style: italic;

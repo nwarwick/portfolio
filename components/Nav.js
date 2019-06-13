@@ -14,7 +14,7 @@ const Nav = props => (
         <Link prefetch href='/about'>
           <a>About</a>
         </Link>
-        <Link prefetch href='/static/nick-warwick-resume.pdf'>
+        <Link href='/static/nick-warwick-resume.pdf'>
           <a target='_blank'>Resume</a>
         </Link>
         <Link prefetch href='/contact'>

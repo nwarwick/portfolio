@@ -12,7 +12,7 @@ module.exports = [
     metaDescription:
       'Calcohol is an application that lets users search for liquor and view a scaled alcohol per dollar (APD) score, allowing them to be as economic as possible when it comes to drinking.',
     technology: ['Vue.js', 'Node.js', 'Express', 'MongoDB'],
-    url: 'https://calcohol.info/'
+    url: 'https://jolly-bassi-0d6105.netlify.com/'
   },
   {
     id: '2',

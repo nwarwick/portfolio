@@ -12,7 +12,7 @@ module.exports = [
     metaDescription:
       'Calcohol is an application that lets users search for liquor and view a scaled alcohol per dollar (APD) score, allowing them to be as economic as possible when it comes to drinking.',
     technology: ['Vue.js', 'Node.js', 'Express', 'MongoDB'],
-    url: 'https://jolly-bassi-0d6105.netlify.com/'
+    url: 'https://calcohol.netlify.com/'
   },
   {
     id: '2',
@@ -27,7 +27,7 @@ module.exports = [
     metaDescription:
       'A simple earthquake data visualization application that displays earthquakes from the last 24 hours and encodes their location and magnitude as the location and radius of a circle.',
     technology: ['JavaScript', 'HTML', 'CSS', 'Mapbox GL', 'Firebase'],
-    url: 'https://github.com/nwarwick/earthquake-data-visualizer'
+    url: 'https://earthquake-visualizer-162c1.firebaseapp.com/'
   },
   {
     id: '3',
@@ -42,7 +42,7 @@ module.exports = [
     metaDescription:
       'ScheduleX is an application that hooks into a SpaceX API in order to display a list of all the upcoming rocket launches, displaying info about them such as payload, date, location, rocket model, as well as any related social media links.',
     technology: ['JavaScript', 'HTML', 'CSS', 'Parcel'],
-    url: 'https://github.com/nwarwick/schedule-x'
+    url: 'https://schedule-x.firebaseapp.com/'
   },
   {
     id: '4',
@@ -57,7 +57,7 @@ module.exports = [
     metaDescription:
       'Kozy is a simple, lightweight, ambient sound web app written using vanilla JavaScript. I created it to practice my web development and design skills.',
     technology: ['JavaScript', 'HTML', 'SCSS', 'Parcel', 'Firebase'],
-    url: 'https://github.com/nwarwick/kozy'
+    url: 'https://kozy.netlify.com/'
   },
   {
     id: '5',

@@ -1,6 +1,7 @@
 module.exports = [
   {
     id: '1',
+    slug: 'calcohol',
     title: 'Calcohol',
     previewImg:
       'https://res.cloudinary.com/dbiyjyi0a/image/upload/v1547913797/portfolio/calcohol-logo.png',
@@ -16,6 +17,7 @@ module.exports = [
   },
   {
     id: '2',
+    slug: 'earthquake-data-visualizer',
     title: 'Earthquake Data Visualizer',
     previewImg:
       'https://res.cloudinary.com/dbiyjyi0a/image/upload/v1547913798/portfolio/earthquake-visualizer.png',
@@ -31,6 +33,7 @@ module.exports = [
   },
   {
     id: '3',
+    slug: 'schedule-x',
     title: 'ScheduleX',
     previewImg:
       'https://res.cloudinary.com/dbiyjyi0a/image/upload/v1547913807/portfolio/schedulex.png',
@@ -46,6 +49,7 @@ module.exports = [
   },
   {
     id: '4',
+    slug: 'kozy',
     title: 'Kozy',
     previewImg:
       'https://res.cloudinary.com/dbiyjyi0a/image/upload/v1547913806/portfolio/kozy-logo.png',
@@ -61,6 +65,7 @@ module.exports = [
   },
   {
     id: '5',
+    slug: 'custom-website',    
     title: 'Custom Website',
     previewImg:
       'https://res.cloudinary.com/dbiyjyi0a/image/upload/v1547913798/portfolio/code.jpg',
@@ -77,6 +82,7 @@ module.exports = [
   },
   {
     id: '6',
+    slug: 'pace-the-music',
     title: 'PaceTheMusic',
     previewImg:
       'https://res.cloudinary.com/dbiyjyi0a/image/upload/v1547913806/portfolio/ptm.png',
@@ -93,6 +99,7 @@ module.exports = [
   },
   {
     id: '7',
+    slug: 'dreamr',
     title: 'DREAMR',
     previewImg:
       'https://res.cloudinary.com/dbiyjyi0a/image/upload/v1547913798/portfolio/dreamr-logo.png',
@@ -109,6 +116,7 @@ module.exports = [
   },
   {
     id: '8',
+    slug: 'chomp',
     title: 'Chomp',
     previewImg:
       'https://res.cloudinary.com/dbiyjyi0a/image/upload/v1547913797/portfolio/chomp-logo.png',
@@ -124,6 +132,7 @@ module.exports = [
   },
   {
     id: '9',
+    slug: 'panzer',
     title: 'Panzer',
     previewImg:
       'https://res.cloudinary.com/dbiyjyi0a/image/upload/v1547913799/portfolio/panzer.png',
@@ -139,6 +148,7 @@ module.exports = [
   },
   {
     id: '10',
+    slug: 'kitten-ninja',
     title: 'Kitten Ninja',
     previewImg:
       'https://res.cloudinary.com/dbiyjyi0a/image/upload/v1547913800/portfolio/kitten-ninja.png',

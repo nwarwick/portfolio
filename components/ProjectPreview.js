@@ -1,5 +1,3 @@
-import Link from 'next/link'
-
 const ProjectPreview = props => {
   const { previewImg, title, previewDescription, slug } = props.project
 
@@ -8,9 +6,9 @@ const ProjectPreview = props => {
       <img className='project-preview-img' src={previewImg} alt='Project' />
       <h2>{title}</h2>
       <p>{previewDescription}</p>
-      <Link href={`/projects/${slug}`}>
-        <a className='test'>Learn More</a>
-      </Link>
+      <a href={`/projects/${slug}`}>
+        <div className='test'>Learn More</div>
+      </a>
     </div>
   )
 }

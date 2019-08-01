@@ -9,13 +9,9 @@
   &:hover {
     cursor: pointer;
 
-    .test {
+    .project-preview-link {
       opacity: 1;
     }
-  }
-
-  &:active {
-    transform: scale(0.9);
   }
 
   .project-preview-img {
@@ -24,7 +20,7 @@
     height: 150px;
   }
 
-  .test {
+  .project-preview-link {
     @include flex-center;
     transition: 0.2s ease-in-out;
     opacity: 0;

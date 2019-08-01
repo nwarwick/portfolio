@@ -6,8 +6,8 @@ const ProjectPreview = props => {
       <img className='project-preview-img' src={previewImg} alt='Project' />
       <h2>{title}</h2>
       <p>{previewDescription}</p>
-      <a href={`/projects/${slug}`}>
-        <div className='test'>Learn More</div>
+      <a className='project-preview-link' href={`/projects/${slug}`}>
+        Learn More
       </a>
     </div>
   )

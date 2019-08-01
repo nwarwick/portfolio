@@ -13,6 +13,13 @@ module.exports = withSass({
       '/contact': { page: '/contact' }
     }
 
+    projects.map(project => {
+      path[`/projects/${project.slug}`] = {
+        page: `/projects/${project.slug}`
+      }
+    })
+
+
     return path
   }
 })

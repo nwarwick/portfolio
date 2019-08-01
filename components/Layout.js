@@ -9,7 +9,7 @@ const Layout = props => {
   return (
     <React.Fragment>
       <Head>
-        <title>{pageTitle}</title>
+        {pageTitle && <title>{pageTitle}</title>}
         <meta name='author' content='Nick Warwick' />
         <meta
           name='viewport'

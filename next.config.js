@@ -5,21 +5,12 @@ module.exports = withSass({
   experimental: {
     exportTrailingSlash: false
   },
-  exportPathMap: function() {
-    path = {
+  async function(defaultPathMap, { dev, dir, outDir, distDir, buildId }) {
+    return {
       '/': { page: '/' },
       '/about': { page: '/about' },
       '/projects': { page: '/projects' },
       '/contact': { page: '/contact' }
     }
-
-    projects.map(project => {
-      path[`/projects/${project.slug}`] = {
-        page: `/projects/${project.slug}`
-      }
-    })
-
-
-    return path
   }
 })

@@ -19,7 +19,7 @@ const About = () => (
       <p>
         I am a Computer Science graduate from the University of Victoria with a
         passion for software/web development and design. I am always eager to
-        learn new tools and techniques while working alongside like-minded
+        learn new tools and techniques while working alongside motivated and like-minded
         people.
       </p>
       <p>

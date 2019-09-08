@@ -17,11 +17,14 @@ const About = () => (
         alt='Me'
       />
       <p>
-        I am a Computer Science graduate from the University of Victoria with a passion for software/web development and design. I am always excited to learn new tools and techniques and to work with awesome people.
+        I am a Computer Science graduate from the University of Victoria with a
+        passion for software/web development and design. I am always eager to
+        learn new tools and techniques while working alongside like-minded
+        people.
       </p>
       <p>
         When I'm not programming I enjoy short walks on the beach, hiking,
-        playing video games, or hanging out with friends!
+        camping, playing video games, or hanging out with friends!
       </p>
     </div>
   </Layout>

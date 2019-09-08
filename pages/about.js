@@ -3,9 +3,9 @@ import Layout from '../components/Layout'
 const About = () => (
   <Layout
     pageTitle='Nick Warwick | About Me'
-    metaContent='I am a Computer Science graduate from the University of Victoria. I
-    have a passion for software/web development and design. I am always
-    excited to learn new tools and techniques and to work with awesome
+    metaContent='I am a Computer Science graduate from the University of Victoria with a
+    passion for software/web development and design. I am always eager to
+    learn new tools and techniques while working alongside motivated and like-minded
     people.'
     navTitle='About Me'
     canonicalUrl='https://nwarwick.info/about'
@@ -19,6 +19,7 @@ const About = () => (
       <p>
         I am a Computer Science graduate from the University of Victoria with a
         passion for software/web development and design. I am always eager to
+        learn new tools and techniques while working alongside motivated and
         like-minded people.
       </p>
       <p>

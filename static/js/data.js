@@ -13,7 +13,7 @@ module.exports = [
     metaDescription:
       'Calcohol is an application that lets users search for liquor and view a scaled alcohol per dollar (APD) score, allowing them to be as economic as possible when it comes to drinking.',
     technology: ['Vue.js', 'Node.js', 'Express', 'MongoDB'],
-    url: 'https://calcohol.netlify.com/'
+    location: 'https://calcohol.netlify.com/'
   },
   {
     id: '2',
@@ -29,7 +29,7 @@ module.exports = [
     metaDescription:
       'A simple earthquake data visualization application that displays earthquakes from the last 24 hours and encodes their location and magnitude as the location and radius of a circle.',
     technology: ['JavaScript', 'HTML', 'CSS', 'Mapbox GL', 'Firebase'],
-    url: 'https://earthquake-visualizer-162c1.firebaseapp.com/'
+    location: 'https://earthquake-visualizer-162c1.firebaseapp.com/'
   },
   {
     id: '3',
@@ -45,7 +45,7 @@ module.exports = [
     metaDescription:
       'ScheduleX is an application that hooks into a SpaceX API in order to display a list of all the upcoming rocket launches, displaying info about them such as payload, date, location, rocket model, as well as any related social media links.',
     technology: ['JavaScript', 'HTML', 'CSS', 'Parcel'],
-    url: 'https://schedule-x.firebaseapp.com/'
+    location: 'https://schedule-x.firebaseapp.com/'
   },
   {
     id: '4',
@@ -61,7 +61,7 @@ module.exports = [
     metaDescription:
       'Kozy is a simple, lightweight, ambient sound web app written using vanilla JavaScript. I created it to practice my web development and design skills.',
     technology: ['JavaScript', 'HTML', 'SCSS', 'Parcel', 'Firebase'],
-    url: 'https://kozy.netlify.com/'
+    location: 'https://kozy.netlify.com/'
   },
   {
     id: '5',
@@ -78,7 +78,7 @@ module.exports = [
     metaDescription:
       'This is an example of a custom website I built from scratch for a client. It is fully responsive and works on phones and tablets.',
     technology: ['JavaScript', 'HTML', 'CSS', 'Firebase'],
-    url: 'https://kassandra-website.firebaseapp.com/'
+    location: 'https://kassandra-website.firebaseapp.com/'
   },
   {
     id: '6',
@@ -95,7 +95,7 @@ module.exports = [
     metaDescription:
       'PaceTheMusic is a desktop application created by Kaileen McCulloch, James Gray, and myself. It allows users to create playlists based on tempos. If you want your playlist to start off with slower music then ramp up to fast music, simply specify your tempos and the application will do the rest!',
     technology: ['Python', 'SQLAlchemy', 'PyQt5'],
-    url: 'https://github.com/james-gray/pace-the-music'
+    location: 'https://github.com/james-gray/pace-the-music'
   },
   {
     id: '7',
@@ -112,7 +112,7 @@ module.exports = [
     metaDescription:
       'DREAMR (Data and Risk Evaluation and Analysis in Mixed Reality) is a data and risk evaluation tool that takes advantage of the Mixed Reality environment provided by the HoloLens, in order to help with data visualization.',
     technology: ['C#', 'Unity', 'HoloLens SDK'],
-    url: 'https://www.youtube.com/watch?v=l92_MlJ-OFs'
+    location: 'https://www.youtube.com/watch?v=l92_MlJ-OFs'
   },
   {
     id: '8',
@@ -128,7 +128,7 @@ module.exports = [
     metaDescription:
       'Chomp is a 2D survival game in which you play as a worm trying not to die from other worms that are trying to kill you for some reason. The world is filled with power-ups and other items that can aid you in your quest to not die. The game was built by William Tsease and myself.',
     technology: ['C#', 'Unity'],
-    url: 'https://github.com/nwarwick/chomp'
+    location: 'https://github.com/nwarwick/chomp'
   },
   {
     id: '9',
@@ -144,7 +144,7 @@ module.exports = [
     metaDescription:
       'Panzer is a 2.5D survival game in which you play as a sentient tank fighting for survival in a world filled with other sentient tanks.',
     technology: ['C#', 'Unity'],
-    url: 'https://github.com/nwarwick/panzer'
+    location: 'https://github.com/nwarwick/panzer'
   },
   {
     id: '10',
@@ -160,6 +160,6 @@ module.exports = [
     metaDescription:
       'Kitten Ninja is a simple game about a kitten who also happens to be a ninja. The game was created for a class assignment and may be expanded upon in the future.',
     technology: ['C#', 'Unity'],
-    url: 'https://github.com/nwarwick/kitten-ninja'
+    location: 'https://github.com/nwarwick/kitten-ninja'
   }
 ]

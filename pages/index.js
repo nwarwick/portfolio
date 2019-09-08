@@ -3,7 +3,7 @@ import Layout from '../components/Layout'
 const Index = () => (
   <Layout
     pageTitle='Nick Warwick | Freelance Web Developer and Designer'
-    metaContent='My name is Nick Warwick. I am a fullstack web developer and designer living in Montreal Canada. I am available for freelance work. I can build and design websites and web applications as well as apply SEO standards.'
+    metaContent='My name is Nick Warwick. I am a Full Stack Software Engineer with a passion for Front End (UI/UX). I have industry experience with various web technologies/tools such as JavaScript (ES6/7, React, Vue.js, AngularJS, Node.js), Ruby on Rails, CSS/SCSS, MongoDB, MySQL, and PostgreSQL. I am always open to chat, feel free to send me an email or give me a call!'
     navTitle='Nick Warwick'
     canonicalUrl='https://nwarwick.info'
   >

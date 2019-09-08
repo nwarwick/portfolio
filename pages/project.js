@@ -4,7 +4,6 @@ import Layout from '../components/Layout'
 
 export default class extends Component {
   static async getInitialProps({ query }) {
-    // fetch single post detail
     const project = data.find(project => {
       return project.slug === query.slug
     })

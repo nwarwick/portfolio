@@ -45,7 +45,7 @@ module.exports = [
     metaDescription:
       'ScheduleX is an application that hooks into a SpaceX API in order to display a list of all the upcoming rocket launches, displaying info about them such as payload, date, location, rocket model, as well as any related social media links.',
     technology: ['JavaScript', 'HTML', 'CSS', 'Parcel'],
-    location: 'https://schedule-x.firebaseapp.com/'
+    location: 'https://schedule-x.netlify.com/'
   },
   {
     id: '4',

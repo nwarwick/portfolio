@@ -64,23 +64,6 @@ module.exports = [
     location: 'https://kozy.netlify.com/'
   },
   {
-    id: '5',
-    slug: 'custom-website',    
-    title: 'Custom Website',
-    previewImg:
-      'https://res.cloudinary.com/dbiyjyi0a/image/upload/v1547913798/portfolio/code.jpg',
-    previewDescription:
-      'This is a custom website I built from scratch for a client.',
-    fullImg:
-      'https://res.cloudinary.com/dbiyjyi0a/image/upload/v1547913807/portfolio/custom-website.png',
-    fullDescription:
-      '<p>This is an example of a custom website I built from scratch for a client. It is fully responsive and works on phones and tablets.</p>',
-    metaDescription:
-      'This is an example of a custom website I built from scratch for a client. It is fully responsive and works on phones and tablets.',
-    technology: ['JavaScript', 'HTML', 'CSS', 'Firebase'],
-    location: 'https://kassandra-website.firebaseapp.com/'
-  },
-  {
     id: '6',
     slug: 'pace-the-music',
     title: 'PaceTheMusic',

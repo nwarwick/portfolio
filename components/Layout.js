@@ -38,6 +38,10 @@ const Layout = props => {
           }}
         />
         <meta
+          name='twitter:image:src'
+          content='https://res.cloudinary.com/dbiyjyi0a/image/upload/v1573401017/portfolio/og-image.jpg'
+        />
+        <meta
           property='og:image'
           content='https://res.cloudinary.com/dbiyjyi0a/image/upload/v1573401017/portfolio/og-image.jpg'
         />

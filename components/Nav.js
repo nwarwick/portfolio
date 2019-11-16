@@ -5,19 +5,19 @@ const Nav = props => (
     <nav className='navbar'>
       <h1>{props.navTitle}</h1>
       <div className='navbar-links'>
-        <Link prefetch href='/'>
+        <Link href='/'>
           <a>Home</a>
         </Link>
-        <Link prefetch href='/projects'>
+        <Link href='/projects'>
           <a>Projects</a>
         </Link>
-        <Link prefetch href='/about'>
+        <Link href='/about'>
           <a>About</a>
         </Link>
         <a href='/static/nick-warwick-resume.pdf' download>
           Resume
         </a>
-        <Link prefetch href='/contact'>
+        <Link href='/contact'>
           <a>Contact</a>
         </Link>
       </div>

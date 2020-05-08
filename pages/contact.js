@@ -12,7 +12,6 @@ const Contact = () => (
         <a href='mailto:nicholaswarwick@icloud.com'>
           nicholaswarwick@icloud.com
         </a>
-        <a href='tel:2508026425'>(250) 802-6425</a>
       </div>
     </div>
   </Layout>

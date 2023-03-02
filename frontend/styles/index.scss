@@ -1,0 +1,29 @@
+// Variables
+@import 'variables/colours';
+@import 'variables/breakpoints';
+
+// Settings
+@import 'settings/layout';
+@import 'settings/global';
+@import 'settings/fonts';
+
+// // Elements 
+@import 'elements/links';
+// @import 'elements/lists';
+@import 'elements/images';
+@import 'elements/buttons';
+
+// Components
+@import 'components/nav';
+@import 'components/footer';
+// @import 'components/project-preview';
+
+// Pages
+@import 'pages/home';
+// @import 'pages/about';
+// @import 'pages/contact';
+// @import 'pages/projects';
+// @import 'pages/project-page';
+
+//  Layouts
+@import 'layouts/default';

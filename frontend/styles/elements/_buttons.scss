@@ -1,0 +1,20 @@
+.button {
+  @include display(inline-block);
+  padding: 0 1rem;
+  line-height: 2.3rem;
+  border: 1px solid $primary;
+  border-radius: 5px;
+  text-align: center;
+  transition: 0.1s;
+  text-decoration: none;
+  color: $text-base;
+
+  &:hover {
+    background-color: $primary;
+    color: $text-white;
+  }
+
+  &:active {
+    background-color: $primary-hover;
+  }
+}

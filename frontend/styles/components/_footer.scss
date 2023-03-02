@@ -1,0 +1,4 @@
+.footer {
+	@include container($size: lg);
+	text-align: center;
+}

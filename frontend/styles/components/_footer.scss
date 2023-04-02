@@ -1,4 +1,25 @@
 .footer {
 	@include container($size: lg);
+	padding: 30px;
+	margin-top: auto;
 	text-align: center;
+	display: grid;
+	grid-template-columns: repeat(3, 30px);
+	grid-gap: 20px;
+	align-items: center;
+
+	svg {
+		fill: $primary;
+	}
+
+	a:hover {
+		svg {
+			fill: $primary-hover;
+		}
+	}
+	a:active {
+		svg {
+			fill: $primary-pressed;
+		}
+	}
 }

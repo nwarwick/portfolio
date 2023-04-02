@@ -1,7 +1,8 @@
 ---
 layout: default
 title: 'Blog'
-h1_title: 'Blog'
+hero_title: 'Blog'
+hero_subtitle: 'Do people even read blogs anymore?'
 ---
 
 <ul>

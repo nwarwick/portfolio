@@ -2,7 +2,8 @@
 # Feel free to add content and custom Front Matter to this file.
 layout: default
 title: 'Nicholas Warwick'
-h1_title: 'Nicholas Warwick'
+hero_title: 'Nicholas Warwick'
+hero_subtitle: 'Designer. Developer. Idea-er.'
 ---
 <section class='home-about'>
   <div></div>

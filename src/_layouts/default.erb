@@ -6,8 +6,8 @@
   <body class="<%= data.layout %> <%= data.page_class %>">
     <%= render Shared::Navbar.new(metadata: site.metadata, resource: resource) %>
     <div class="hero">
-      <h1 class='hero-heading'><%= data.h1_title %></h1>
-      <p class='hero-subheading'>Designer. Developer. Idea-er.</p>
+      <h1 class='hero-heading'><%= data.hero_title %></h1>
+      <p class='hero-subheading'><%= data.hero_subtitle %></p>
     </div>
     <main>
       <%= yield %>

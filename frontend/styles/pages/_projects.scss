@@ -1,0 +1,9 @@
+.projects {
+  @include container;
+  
+  .project-list {
+    @include display(flex);
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

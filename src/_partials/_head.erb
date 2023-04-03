@@ -1,10 +1,18 @@
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SJS1ZC9WK4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SJS1ZC9WK4');
+</script>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <% resource_title = strip_html(strip_newlines(title)) %>
 <title><% if resource_title != "Index" %><%= resource_title %> | <%= metadata.title %><% else %><%= metadata.title %>: <%= metadata.tagline %><% end %></title>
-
 <meta name="description" content="<%= metadata.description %>" />
-
+<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
 <link rel="stylesheet" href="<%= webpack_path :css %>" />
 <script src="<%= webpack_path :js %>" defer></script>
 <%= live_reload_dev_js %>

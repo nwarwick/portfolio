@@ -9,20 +9,18 @@
 
 // // Elements 
 @import 'elements/links';
-// @import 'elements/lists';
+@import 'elements/lists';
 @import 'elements/images';
 @import 'elements/buttons';
 
 // Components
 @import 'components/nav';
 @import 'components/footer';
-// @import 'components/project-preview';
+@import 'components/project_preview';
 
 // Pages
 @import 'pages/home';
-// @import 'pages/about';
-// @import 'pages/contact';
-// @import 'pages/projects';
+@import 'pages/projects';
 // @import 'pages/project-page';
 
 //  Layouts

@@ -9,7 +9,7 @@
       <h1 class='hero-heading'><%= data.hero_title %></h1>
       <p class='hero-subheading'><%= data.hero_subtitle %></p>
     </div>
-    <main>
+    <main class="<%= data.wrapper_class %>">
       <%= yield %>
     </main>
     <%= render "footer", metadata: site.metadata %>

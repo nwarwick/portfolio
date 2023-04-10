@@ -1,0 +1,25 @@
+@mixin link-primary {
+	color: $primary;
+	text-decoration: none;
+
+	&:hover {
+		color: $primary-hover;
+	}
+
+	&:active {
+		color: $primary-pressed;
+	}
+}
+
+@mixin link-secondary {
+	color: $text-base;
+	text-decoration: none;
+
+	&:hover {
+		color: $primary-hover;
+	}
+
+	&:active {
+		color: $primary-pressed;
+	}
+}

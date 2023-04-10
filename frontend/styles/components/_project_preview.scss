@@ -2,37 +2,17 @@
   padding: 40px;
   width: 200px;
   text-align: center;
-  position: relative;
-  user-select: none;
-  transition: 0.1s ease-in-out;
+  display: grid;
+  grid-gap: 10px;
 
-  &:hover {
-    cursor: pointer;
-
-    .project-preview-link {
-      opacity: 1;
-    }
+  h2,p {
+    margin: 0;
   }
 
   .project-preview-img {
     border-radius: 20%;
     width: 150px;
     height: 150px;
-  }
-
-  .project-preview-link {
-    @include flex-center;
-    transition: 0.2s ease-in-out;
-    opacity: 0;
-    border-radius: 15px;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background-color: $primary-opaque;
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: white;
+    justify-self: center;
   }
 }

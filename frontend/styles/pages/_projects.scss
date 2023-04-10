@@ -3,6 +3,7 @@
   
   .project-list {
     @include display(flex);
+    @include list-unstyled;
     flex-wrap: wrap;
     justify-content: center;
   }

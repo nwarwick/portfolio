@@ -1,20 +1,10 @@
 	.home-about,
 	.home-experience {
-		display: grid;
-		grid-template-columns: 150px 1fr 150px;
-		grid-auto-flow: column;
-		grid-gap: 20px;
-		align-items: center;
-
-		img {
-			width: 200px;
-			height: auto;
-			border-radius: 5px;
-		}
 	}
 
 	.home-about-image {
+		display: flex;
+		margin: 0 auto;
 		border-radius: 5px;
 		width: 200px;
-		margin: 0 auto;
 	}

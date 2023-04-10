@@ -3,15 +3,10 @@
   <head>
     <%= render "head", metadata: site.metadata, title: data.title %>
   </head>
-  <body class="<%= data.layout %> <%= data.page_class %>">
-    <%= render Shared::Navbar.new(metadata: site.metadata, resource: resource) %>
-    <div class="hero">
-      <h1 class='hero-heading'><%= data.hero_title %></h1>
-      <p class='hero-subheading'><%= data.hero_subtitle %></p>
-    </div>
-    <main class="<%= data.wrapper_class %>">
-      <%= yield %>
-    </main>
-    <%= render "footer", metadata: site.metadata %>
-  </body>
+  <%= render Shared::Navbar.new(metadata: site.metadata, resource: resource) %>
+  <main  class="<%= data.layout %>">
+    <%= yield %>
+  </main>
+  <%= render "footer", metadata: site.metadata %>
+</body>
 </html>

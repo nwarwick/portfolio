@@ -1,0 +1,25 @@
+<div class="project-info">
+  <div class="project-breadcrumbs">
+    <a href="/projects">Projects</a> / <span><%= @title %></span>
+  </div>
+  <h2>What is it?</h2>
+  <div>
+    <% @description_paragraphs.each do |paragraph| %>
+      <p><%= paragraph %></p>
+    <% end %>
+  </div>
+  <h2>What was used to make it?</h2>
+  <ul>
+    <% @technologies.each do |technology| %>
+      <li><%= technology %></li>
+    <% end %>
+  </ul>
+  <h2>Where is it?</h2>
+  <a href="<%= @live_url %>"
+			target="_blank"><%= @live_url %></a>
+</div>
+<div class="project-image">
+  <img
+			src="<%= @image_url %>"
+			alt="Project screen shot">
+  </div>

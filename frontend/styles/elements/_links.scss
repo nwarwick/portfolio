@@ -1,8 +1,7 @@
 a {
-  color: $text-base;
-  text-decoration: none;
+  @include link-primary;
+}
 
-  &:hover {
-    color: $primary;
-  }
+.link-secondary {
+  @include link-secondary;
 }

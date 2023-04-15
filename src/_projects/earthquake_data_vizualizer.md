@@ -1,7 +1,7 @@
 ---
 layout: project
-image_url: "https://res.cloudinary.com/dbiyjyi0a/image/upload/v1547913798/portfolio/earthquake-visualizer2.png"
-thumbnail_url: "https://res.cloudinary.com/dbiyjyi0a/image/upload/v1547913798/portfolio/earthquake-visualizer.png"
+image_url: "https://res.cloudinary.com/dbiyjyi0a/image/upload/v1681579634/earthquake-visualizer.webp"
+thumbnail_url: "https://res.cloudinary.com/dbiyjyi0a/image/upload/v1681579634/earthquake-visualizer-thumbnail.webp"
 title: "Earthquake Data Visualizer"
 hero_title: "Earthquake Data Visualizer"
 preview_description: "An earthquake data visualization application."

@@ -3,29 +3,32 @@
 
 	.project-wrapper {
 		display: grid;
-		grid-template-columns: 1fr 700px;
+		grid-template-columns: 480px 1fr;
 		grid-gap: 20px;
 		margin-top: 50px;
-	}
 
-	.project-breadcrumbs {
+		@media screen and (max-width: $screen-md) {
+			grid-template-columns: 1fr;
+		}
+	}
+}
+
+.project-breadcrumbs {
+	margin-block-end: 0.83rem;
+}
+
+.project-info {
+	h2,
+	ul,
+	p {
 		margin-block-end: 0.83rem;
 	}
 
-	.project-info {
-
-		h2,
-		ul,
-		p {
-			margin-block-end: 0.83rem;
-		}
-
-		p {
-			margin-top: 0;
-		}
+	p {
+		margin-top: 0;
 	}
+}
 
-	.project-image img {
-		border-radius: 5px;
-	}
+.project-image img {
+	border-radius: 5px;
 }

@@ -15,7 +15,7 @@ hero_subtitle: 'Designer. Developer. Idea-er.'
     with friends!</p>
 </section>
 <div class="home-headshot">
-  <img class='home-about-image'
+  <img class='home-headshot-image'
     src='https://res.cloudinary.com/dbiyjyi0a/image/upload/v1680526997/portfolio/headshot.webp' alt='Me in a hoodie' />
 </div>
 <section class='home-experience'>

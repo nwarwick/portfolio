@@ -1,6 +1,7 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
-layout: page
+layout: 'page'
+container_class: 'container-md'
 wrapper_class: 'projects'
 title: 'Projects | Nicholas Warwick'
 hero_title: 'Projects'

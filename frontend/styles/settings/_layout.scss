@@ -21,7 +21,7 @@
     max-width: $screen-md;
   } @else if($size == sm) {
     max-width: $screen-sm;
-  } @else if($size == sm) {
+  } @else if($size == xs) {
     max-width: $screen-xs;
   }
 }
@@ -51,4 +51,20 @@
   @include grid-container;
   grid-template-columns: 1fr 1fr;
   grid-gap: 15px;
+}
+
+.container-xs {
+  @include container(xs);
+}
+
+.container-sm {
+  @include container(sm);
+}
+
+.container-md {
+  @include container(md);
+}
+
+.container-lg {
+  @include container(lg);
 }

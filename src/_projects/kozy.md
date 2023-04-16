@@ -8,7 +8,7 @@ preview_description: "An ambient noise generator within your browser."
 description_paragraphs: ["Kozy is a simple, lightweight, ambient sound web app written using vanilla JavaScript."]
 live_url: "https://kozy.netlify.com/"
 technologies: [JavaScript]
-created_at: '05-11-2016'
+created_at: '05-11-2017'
 ---
 
 <%= render ProjectPage.new(title: resource.data.title, image_url: resource.data.image_url, description_paragraphs: resource.data.description_paragraphs, live_url: resource.data.live_url, technologies: resource.data.technologies, created_at: resource.data.created_at) %>

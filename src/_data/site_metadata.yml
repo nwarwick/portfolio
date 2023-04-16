@@ -4,10 +4,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.metadata.myvariable }}.
 
-title: Nicholas Warwick
-tagline: This site is totally awesome
-email: nicholaswarwick@icloud.com
+title: 'Nicholas Warwick'
+tagline: 'Designer, developer, idea-er.'
+email: 'nicholaswarwick@icloud.com'
 linkedin:
 github:
 description: >-
-  Write an awesome description for your new site here. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+  'Computer Science graduate passionate about engineering, product and design. Check out my portfolio to see my work - always open to chat!'

@@ -8,10 +8,8 @@ hero_subtitle: 'Designer. Developer. Idea-er.'
 ---
 <section class='home-about'>
   <h2>Who am I?</h2>
-  <p>I am a Computer Science graduate from the University of Victoria with a passion for software/web development and
-    design. I am always eager to learn new tools and techniques while working alongside motivated and like-minded
-    people.</p>
-  <p>When I'm not programming I enjoy short walks on the beach, hiking, camping, playing video games, or hanging out
+  <p>I am a Computer Science graduate from the University of Victoria with a passion for product, engineering, and design. I am always eager to learn new tools and techniques while working alongside motivated and like-minded people.</p>
+  <p>When I'm not working I enjoy short walks on the beach, reading, hiking, camping, playing video games, or hanging out
     with friends!</p>
 </section>
 <div class="home-headshot">

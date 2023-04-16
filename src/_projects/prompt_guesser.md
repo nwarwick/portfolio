@@ -1,7 +1,7 @@
 ---
 layout: project
 image_url: "https://res.cloudinary.com/dbiyjyi0a/image/upload/v1680879890/portfolio/prompt-guesser.webp"
-thumbnail_url: "https://res.cloudinary.com/dbiyjyi0a/image/upload/v1547913806/portfolio/kozy-logo.png"
+thumbnail_url: "https://res.cloudinary.com/dbiyjyi0a/image/upload/v1681664913/portfolio/prompt-guesser-thumbnail.webp"
 title:  "PromptGuesser"
 hero_title: "PromptGuesser"
 preview_description: "A simple guessing game built using GPT and Dall-E."

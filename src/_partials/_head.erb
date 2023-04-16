@@ -12,6 +12,9 @@
 <% resource_title = strip_html(strip_newlines(title)) %>
 <title><% if resource_title != "Index" %><%= resource_title %> | <%= metadata.title %><% else %><%= metadata.title %>: <%= metadata.tagline %><% end %></title>
 <meta name="description" content="<%= metadata.description %>" />
+<meta property="og:image" content="<%= metadata.og_image_url %>">
+<meta property="og:description" content="<%= metadata.description %>" />
+<meta property="og:title" content="<%= metadata.title %>" />
 <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
 <link rel="stylesheet" href="<%= webpack_path :css %>" />
 <script src="<%= webpack_path :js %>" defer></script>

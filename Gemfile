@@ -33,3 +33,5 @@ gem "bridgetown", "~> 1.2.0"
 gem "puma", "~> 5.6"
 
 gem "standard", "~> 1.26", groups: [:development, :test]
+
+gem "bridgetown-sitemap", "~> 2.0"

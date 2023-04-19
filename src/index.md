@@ -22,5 +22,5 @@ hero_subtitle: 'Designer. Developer. Idea-er.'
     game development, RnD for the Canadian government, medical services, and industrial automation. I have been
     fortunate enough to play a leadership role at a company while it grew from 20 people to over 300. This allowed me
     to learn from the wide variety of challenges experienced at different levels of scale.</p>
-  <p>Over the years I have worked on various small side-projects which you can find <a href="/projects">here.</a></p>
+  <p>Over the years I have worked on various small side-projects, some of which are listed on the <a href="<%= relative_url '/projects' %>">projects page</a> of this website.</p>
 </section>

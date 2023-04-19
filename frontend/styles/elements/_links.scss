@@ -5,3 +5,7 @@ a {
 .link-secondary {
   @include link-secondary;
 }
+
+.link-unstyled {
+  @include link-unstyled;
+}

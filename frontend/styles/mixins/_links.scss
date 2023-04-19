@@ -23,3 +23,23 @@
 		color: $primary-pressed;
 	}
 }
+
+@mixin link-unstyled($color: $text-base, $underline: false) {
+  color: $color;
+
+  @if $underline == true {
+    text-decoration: underline;
+  } @else {
+    text-decoration: none;
+  }
+
+  &:focus,
+  &:hover {
+    color: $color;
+    @if $underline == true {
+      text-decoration: underline;
+    } @else {
+      text-decoration: none;
+    }
+  }
+}

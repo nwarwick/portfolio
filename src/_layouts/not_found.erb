@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<div class="not-found <%= data.container_class || 'container-sm' %>">
+  <div class="not-found-hero">
+    <h1 class='not-found-heading'><%= data.hero_title %></h1>
+    <p class='not-found-hero-subheading'><%= data.hero_subtitle %></p>
+    <p>Feel free to learn more about me on the <a href="<%= relative_url '/' %>">home page</a> or view my projects <a href="<%= relative_url '/projects' %>">here!</a></p>
+  </div>
+  <%= yield %>
+</div>

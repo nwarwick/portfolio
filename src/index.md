@@ -3,8 +3,8 @@
 layout: 'page'
 container_class: 'container-sm'
 title: 'Home'
-hero_title: 'Nicholas Warwick'
-hero_subtitle: 'Designer. Developer. Idea-er.'
+hero_title: 'Nick Warwick'
+hero_subtitle: 'Developer. Designer. Idea-er.'
 ---
 <section class='home-about'>
   <h2>Who am I?</h2>

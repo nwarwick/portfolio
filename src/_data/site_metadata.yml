@@ -4,8 +4,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.metadata.myvariable }}.
 
-title: 'Nicholas Warwick'
-tagline: 'Designer, developer, idea-er.'
+title: 'Nick Warwick'
+tagline: 'Developer, designer, idea-er.'
 email: 'nicholaswarwick@icloud.com'
 og_image_url: https://res.cloudinary.com/dbiyjyi0a/image/upload/v1681669309/portfolio/portfolio-og-image.webp
 linkedin:

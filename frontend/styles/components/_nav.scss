@@ -17,6 +17,7 @@
 
 	a {
 		@include link-secondary;
+		font-weight: bold;
 		padding: 0 0.5714rem;
 	}
 }

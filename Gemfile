@@ -32,6 +32,6 @@ gem "bridgetown", "~> 1.2.0"
 # (you can optionally limit this to the "development" group)
 gem "puma"
 
-gem "standard", "~> 1.26", groups: [:development, :test]
+gem "standard", groups: [:development, :test]
 
 gem "bridgetown-sitemap", "~> 2.0"

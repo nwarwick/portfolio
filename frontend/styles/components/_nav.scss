@@ -10,7 +10,7 @@
 
 		li:not(:last-child) {
 			a { 
-				border-right: 1px solid $primary;
+				border-right: $border--primary;
 			}
 		}
 	}

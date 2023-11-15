@@ -1,6 +1,11 @@
-$text-base: #757575;
-$text-white: #fff;
+// Base colours
 $primary: #3CCEA0;
 $primary-hover: #38be93;
 $primary-pressed: #34b189;
+$secondary: #757575;
+$white: #fff;
 $off-white: #f0f0f0;
+
+// Typography
+$text-base: $secondary;
+$text-white: $white;

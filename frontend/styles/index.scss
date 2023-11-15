@@ -2,8 +2,9 @@
 @import 'mixins/links';
 
 // Variables
-@import 'variables/colours';
+@import 'variables/borders';
 @import 'variables/breakpoints';
+@import 'variables/colours';
 
 // Settings
 @import 'settings/layout';
@@ -15,6 +16,7 @@
 @import 'elements/lists';
 @import 'elements/images';
 @import 'elements/buttons';
+@import 'elements/borders';
 
 // Components
 @import 'components/nav';
@@ -25,6 +27,7 @@
 @import 'pages/home';
 @import 'pages/projects';
 @import 'pages/project';
+@import 'pages/blog';
 
 //  Layouts
 @import 'layouts/default';

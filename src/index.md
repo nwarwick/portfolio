@@ -20,8 +20,7 @@ hero_subtitle: 'Developer. Designer. Idea-er.'
 <section class='home-experience'>
   <h2>What have I done?</h2>
   <p>Besides building this website, I have worked as a Software Developer and Manager in a variety of environments ranging from
-    game development, RnD for the Canadian government, medical services, and industrial automation. I have been
-    fortunate enough to play a leadership role at a company while it grew from 20 people to over 300. At the company's peak I was managing two teams consisting of 18 people. This allowed me
-    to learn from the wide variety of challenges experienced at different levels of scale.</p>
+    game development, mixed reality R&D for the Canadian government, medical services, and industrial automation. I have been
+    fortunate enough to play a leadership role at a company while it grew from 20 people to over 300. At the company's peak I was managing two teams consisting of 18 people. This allowed me to learn from the wide variety of challenges experienced at different levels of scale. It was also a rewarding experience rapidly building impactful features and helping junior developers grow into senior roles.</p>
   <p>Over the years I have worked on various small side-projects, some of which are listed on the <a href="<%= relative_url '/projects' %>">projects page</a> of this website.</p>
 </section>

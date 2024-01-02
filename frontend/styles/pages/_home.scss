@@ -1,11 +1,27 @@
-	.home-headshot {
-		padding: 20px 0;
-	}
+.home-headshot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: $border--primary;
+  padding-left: 20px;
 
-	.home-headshot-image {
-		display: flex;
-		margin: 0 auto;
-		border-radius: 5px;
-		width: 200px;
-		height: 215px;
-	}
+  @media screen and (max-width: $screen-sm) {
+    display: none;
+  }
+}
+
+.home-headshot-image {
+  border-radius: 5px;
+}
+
+.home-about {
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  grid-gap: 20px;
+  align-items: center;
+	margin-bottom: 30px;
+
+  @media screen and (max-width: $screen-sm) {
+    grid-template-columns: 1fr;
+  }
+}

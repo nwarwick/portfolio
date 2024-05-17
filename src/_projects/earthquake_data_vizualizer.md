@@ -7,7 +7,7 @@ hero_title: "Earthquake Data Visualizer"
 preview_description: "An earthquake data visualization application."
 description_paragraphs: ["A simple earthquake data visualization application that displays earthquakes from the last 24 hours and
 encodes their location and magnitude as the location and radius of a circle."]
-live_url: "https://earthquake-visualizer.netlify.com/"
+live_url: "https://earthquake-visualizer.netlify.app/"
 technologies: [JavaScript, HTML, CSS, Mapbox GL, Firebase]
 created_at: '15-06-2017'
 ---

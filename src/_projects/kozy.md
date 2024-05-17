@@ -6,7 +6,7 @@ title:  "Kozy"
 hero_title: "Kozy"
 preview_description: "An ambient noise generator within your browser."
 description_paragraphs: ["Kozy is a simple, lightweight, ambient sound web app written using vanilla JavaScript."]
-live_url: "https://kozy.netlify.com/"
+live_url: "https://kozy.netlify.app/"
 technologies: [JavaScript]
 created_at: '05-11-2017'
 ---
